@@ -1,0 +1,718 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="System" priority="7" />
+      <Item value="Linq" priority="2" />
+      <Item value="foreach" priority="15" />
+      <Item value="value" priority="4" />
+      <Item value="public" priority="92" />
+      <Item value="List" priority="18" />
+      <Item value="User" priority="7" />
+      <Item value="SiteDbDataContext" priority="3" />
+      <Item value="new" priority="75" />
+      <Item value="var" priority="3" />
+      <Item value="IQueryable" priority="2" />
+      <Item value="return" priority="56" />
+      <Item value="ProcessInfo" priority="4" />
+      <Item value="from" priority="2" />
+      <Item value="context" priority="3" />
+      <Item value="orderby" priority="1" />
+      <Item value="select" priority="1" />
+      <Item value="p" priority="5" />
+      <Item value="users" priority="1" />
+      <Item value="void" priority="6" />
+      <Item value="GetUsers" priority="1" />
+      <Item value="user" priority="2" />
+      <Item value="Guid" priority="18" />
+      <Item value="id" priority="0" />
+      <Item value="GetUser" priority="0" />
+      <Item value="user1" priority="0" />
+      <Item value="class" priority="16" />
+      <Item value="string" priority="76" />
+      <Item value="interface" priority="1" />
+      <Item value="int" priority="22" />
+      <Item value="IUserRepository" priority="0" />
+      <Item value="UserDto" priority="0" />
+      <Item value="FirstName" priority="2" />
+      <Item value="Id" priority="0" />
+      <Item value="LastName" priority="2" />
+      <Item value="Console" priority="1" />
+      <Item value="where" priority="3" />
+      <Item value="skip" priority="0" />
+      <Item value="take" priority="0" />
+      <Item value="UserRepository" priority="1" />
+      <Item value="userRepository" priority="1" />
+      <Item value="queryable" priority="0" />
+      <Item value="DateTime" priority="18" />
+      <Item value="dateTime" priority="2" />
+      <Item value="try" priority="8" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="using" priority="5" />
+      <Item value="Internal" priority="0" />
+      <Item value="null" priority="31" />
+      <Item value="private" priority="25" />
+      <Item value="if" priority="42" />
+      <Item value="messages" priority="0" />
+      <Item value="PostMessage" priority="5" />
+      <Item value="registerMessage" priority="0" />
+      <Item value="errorString" priority="0" />
+      <Item value="chatMessage" priority="0" />
+      <Item value="emptyMessage" priority="0" />
+      <Item value="imageDataMessage" priority="0" />
+      <Item value="imageNoChangeMessage" priority="0" />
+      <Item value="as" priority="5" />
+      <Item value="PollIntervalMessage" priority="3" />
+      <Item value="ThumbsizeMessage" priority="0" />
+      <Item value="ChatMessage" priority="0" />
+      <Item value="PollModeMessage" priority="3" />
+      <Item value="ImageCodecInfo" priority="1" />
+      <Item value="codec" priority="1" />
+      <Item value="ImageFormat" priority="4" />
+      <Item value="jpgEncoder" priority="2" />
+      <Item value="break" priority="1" />
+      <Item value="EncoderParameters" priority="1" />
+      <Item value="encoderParameters" priority="1" />
+      <Item value="EncoderParameter" priority="1" />
+      <Item value="encoderParameter" priority="2" />
+      <Item value="Encoder" priority="1" />
+      <Item value="encoder" priority="0" />
+      <Item value="bitmap" priority="5" />
+      <Item value="ms" priority="7" />
+      <Item value="png" priority="0" />
+      <Item value="Bitmap" priority="11" />
+      <Item value="originalImagePath" priority="0" />
+      <Item value="static" priority="12" />
+      <Item value="compressed" priority="1" />
+      <Item value="Path" priority="5" />
+      <Item value="_imagePath" priority="2" />
+      <Item value="DefaultCompressionPng" priority="1" />
+      <Item value="VariousQuality" priority="0" />
+      <Item value="for" priority="2" />
+      <Item value="i" priority="2" />
+      <Item value="quality" priority="0" />
+      <Item value="fileOut" priority="0" />
+      <Item value="agentData" priority="16" />
+      <Item value="pim" priority="0" />
+      <Item value="Request" priority="3" />
+      <Item value="currentDirectory" priority="2" />
+      <Item value="Html" priority="11" />
+      <Item value="Model" priority="7" />
+      <Item value="ActionResult" priority="2" />
+      <Item value="EmptyResult" priority="2" />
+      <Item value="View" priority="1" />
+      <Item value="folder" priority="5" />
+      <Item value="PathDirection" priority="0" />
+      <Item value="IO" priority="0" />
+      <Item value="file" priority="5" />
+      <Item value="name" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="parts" priority="0" />
+      <Item value="part" priority="1" />
+      <Item value="Url" priority="0" />
+      <Item value="CurrentDirectory" priority="0" />
+      <Item value="char" priority="0" />
+      <Item value="agent" priority="1" />
+      <Item value="_currentDirectory" priority="3" />
+      <Item value="byte" priority="5" />
+      <Item value="case" priority="12" />
+      <Item value="WebService" priority="1" />
+      <Item value="Action" priority="1" />
+      <Item value="gZipStream" priority="0" />
+      <Item value="GZipStream" priority="0" />
+      <Item value="ZipHelper" priority="2" />
+      <Item value="zipHelper" priority="3" />
+      <Item value="zipFileName" priority="0" />
+      <Item value="ZipFile" priority="1" />
+      <Item value="Stream" priority="1" />
+      <Item value="outputStream" priority="1" />
+      <Item value="throw" priority="4" />
+      <Item value="ArgumentNullException" priority="0" />
+      <Item value="_zipFile" priority="0" />
+      <Item value="fileName" priority="10" />
+      <Item value="stream" priority="0" />
+      <Item value="message" priority="8" />
+      <Item value="File" priority="1" />
+      <Item value="XmlInclude" priority="2" />
+      <Item value="type" priority="6" />
+      <Item value="MonitorAgent" priority="0" />
+      <Item value="BaseMessage" priority="0" />
+      <Item value="FileDataMessage" priority="7" />
+      <Item value="fdm" priority="1" />
+      <Item value="AgentId" priority="3" />
+      <Item value="_agentId" priority="0" />
+      <Item value="FileName" priority="0" />
+      <Item value="MemoryStream" priority="6" />
+      <Item value="memoryStream" priority="11" />
+      <Item value="TimeStamp" priority="0" />
+      <Item value="tempFile" priority="0" />
+      <Item value="is" priority="0" />
+      <Item value="ProcessFileDataMessage" priority="0" />
+      <Item value="FileResult" priority="1" />
+      <Item value="ContentToFetch" priority="0" />
+      <Item value="files" priority="0" />
+      <Item value="content" priority="0" />
+      <Item value="Directory" priority="0" />
+      <Item value="folderName" priority="0" />
+      <Item value="HtmlAnchor" priority="0" />
+      <Item value="object" priority="5" />
+      <Item value="FileStreamResult" priority="1" />
+      <Item value="fsr" priority="4" />
+      <Item value="hvm" priority="0" />
+      <Item value="AgentData" priority="3" />
+      <Item value="input" priority="7" />
+      <Item value="JsonResult" priority="0" />
+      <Item value="ContactInfo" priority="2" />
+      <Item value="contactInfo" priority="5" />
+      <Item value="State" priority="0" />
+      <Item value="Birthdate" priority="1" />
+      <Item value="Json" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="true" priority="1" />
+      <Item value="AcceptVerbs" priority="1" />
+      <Item value="HttpVerbs" priority="1" />
+      <Item value="firstName" priority="0" />
+      <Item value="lastName" priority="0" />
+      <Item value="ViewDataDictionary" priority="0" />
+      <Item value="info" priority="0" />
+      <Item value="ViewData" priority="0" />
+      <Item value="Form" priority="0" />
+      <Item value="readonly" priority="13" />
+      <Item value="PluginFinder" priority="2" />
+      <Item value="ILogger" priority="6" />
+      <Item value="_logger" priority="18" />
+      <Item value="Logger" priority="0" />
+      <Item value="WebMethod" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="DataPackage" priority="16" />
+      <Item value="Serializable" priority="4" />
+      <Item value="Data" priority="0" />
+      <Item value="PluginId" priority="0" />
+      <Item value="List&lt;DataPackage&gt;" priority="4" />
+      <Item value="DataBundle" priority="6" />
+      <Item value="Packages" priority="1" />
+      <Item value="outgoing" priority="6" />
+      <Item value="PackagesToDeliver" priority="0" />
+      <Item value="incoming" priority="11" />
+      <Item value="dataPackage" priority="5" />
+      <Item value="_packageHandlers" priority="7" />
+      <Item value="IPackageHandler" priority="7" />
+      <Item value="packageHandler" priority="10" />
+      <Item value="result" priority="8" />
+      <Item value="ServerPackageService" priority="0" />
+      <Item value="_pluginFolder" priority="10" />
+      <Item value="pluginFolder" priority="2" />
+      <Item value="pluginFinder" priority="1" />
+      <Item value="logger" priority="6" />
+      <Item value="plugins" priority="2" />
+      <Item value="Type" priority="6" />
+      <Item value="List&lt;IPackageHandler&gt;" priority="0" />
+      <Item value="List&lt;AgentData&gt;" priority="0" />
+      <Item value="agentId" priority="1" />
+      <Item value="pluginId" priority="1" />
+      <Item value="continue" priority="0" />
+      <Item value="ex" priority="1" />
+      <Item value="fromPackageHandler" priority="1" />
+      <Item value="AgentInfo" priority="4" />
+      <Item value="_agentInfo" priority="2" />
+      <Item value="agentInfo" priority="6" />
+      <Item value="internal" priority="0" />
+      <Item value="AgentService" priority="2" />
+      <Item value="agentService" priority="1" />
+      <Item value="_agents" priority="0" />
+      <Item value="false" priority="2" />
+      <Item value="ClientDataBundleService" priority="0" />
+      <Item value="clientSidePluginFolder" priority="1" />
+      <Item value="LastUpdate" priority="0" />
+      <Item value="ServerPostOffice" priority="3" />
+      <Item value="serverPostOffice" priority="0" />
+      <Item value="PostOffice" priority="0" />
+      <Item value="Condition" priority="12" />
+      <Item value="serverSidePackageHandlerFolder" priority="1" />
+      <Item value="DirectoryInfo" priority="0" />
+      <Item value="di" priority="0" />
+      <Item value="binaryFormatter" priority="3" />
+      <Item value="BinaryFormatter" priority="2" />
+      <Item value="obj" priority="2" />
+      <Item value="bytes" priority="1" />
+      <Item value="SeekOrigin" priority="0" />
+      <Item value="instance" priority="1" />
+      <Item value="Person" priority="4" />
+      <Item value="person" priority="5" />
+      <Item value="TestPerson" priority="0" />
+      <Item value="SerializerTests" priority="0" />
+      <Item value="testPerson" priority="0" />
+      <Item value="Serializer" priority="3" />
+      <Item value="Assert" priority="7" />
+      <Item value="after" priority="9" />
+      <Item value="before" priority="7" />
+      <Item value="TestMethod" priority="0" />
+      <Item value="Image" priority="2" />
+      <Item value="Rectangle" priority="3" />
+      <Item value="ImagePackage" priority="2" />
+      <Item value="imagePackage" priority="0" />
+      <Item value="data" priority="1" />
+      <Item value="CursorPackage" priority="3" />
+      <Item value="cursorPackage" priority="0" />
+      <Item value="Graphics" priority="2" />
+      <Item value="double" priority="0" />
+      <Item value="Size" priority="1" />
+      <Item value="size" priority="0" />
+      <Item value="g" priority="0" />
+      <Item value="screenSize" priority="0" />
+      <Item value="bmp1" priority="3" />
+      <Item value="h" priority="1" />
+      <Item value="bmp2" priority="0" />
+      <Item value="this" priority="3" />
+      <Item value="number" priority="1" />
+      <Item value="switch" priority="0" />
+      <Item value="month" priority="0" />
+      <Item value="default" priority="1" />
+      <Item value="month1" priority="1" />
+      <Item value="StringExtensions" priority="0" />
+      <Item value="season1" priority="2" />
+      <Item value="const" priority="0" />
+      <Item value="myName" priority="0" />
+      <Item value="TakesParameters" priority="0" />
+      <Item value="ArgumentException" priority="1" />
+      <Item value="FileStyleUriParser" priority="0" />
+      <Item value="thr" priority="1" />
+      <Item value="FileNotFoundException" priority="1" />
+      <Item value="age" priority="2" />
+      <Item value="ArgumentOutOfRangeException" priority="1" />
+      <Item value="appointment" priority="0" />
+      <Item value="maxValue" priority="1" />
+      <Item value="parameterName" priority="2" />
+      <Item value="test" priority="0" />
+      <Item value="Expressions" priority="0" />
+      <Item value="T" priority="3" />
+      <Item value="WrapperType" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="ParameterName" priority="0" />
+      <Item value="WrapperType&lt;T&gt;" priority="0" />
+      <Item value="Validate" priority="1" />
+      <Item value="MessageBundle" priority="5" />
+      <Item value="Message" priority="6" />
+      <Item value="IClientMessageProcessor" priority="4" />
+      <Item value="IServerMessageProcessor" priority="8" />
+      <Item value="ServerMessageProcessorFactory" priority="2" />
+      <Item value="List&lt;IServerMessageProcessor&gt;" priority="0" />
+      <Item value="finder" priority="2" />
+      <Item value="FindPlugins" priority="1" />
+      <Item value="_plugins" priority="2" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="Dictionary&lt;Guid,Type&gt;" priority="0" />
+      <Item value="Activator" priority="1" />
+      <Item value="foundTypes" priority="0" />
+      <Item value="plugin" priority="2" />
+      <Item value="_serverMessageProcessorFactory" priority="1" />
+      <Item value="serverMessageProcessor" priority="3" />
+      <Item value="List&lt;Message&gt;" priority="2" />
+      <Item value="temp" priority="2" />
+      <Item value="messageBundle" priority="1" />
+      <Item value="_messageBundleProcessor" priority="3" />
+      <Item value="MessageBundleProcessor" priority="0" />
+      <Item value="DebugLogger" priority="0" />
+      <Item value="IPlugin" priority="0" />
+      <Item value="ClientMessageProcessorFactory" priority="1" />
+      <Item value="_clientMessageProcessorFactory" priority="1" />
+      <Item value="Messages" priority="0" />
+      <Item value="clientMessageProcessor" priority="0" />
+      <Item value="Rlc" priority="0" />
+      <Item value="Monitor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="1" />
+      <Item value="Out" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorMvc.Models.SiteDbDataContext">
+      <Item value="Users" priority="2" />
+      <Item value="Log" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Skip" priority="1" />
+      <Item value="Take" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="First" priority="0" />
+      <Item value="FirstOrDefault" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorMvc.Models.User">
+      <Item value="Id" priority="2" />
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="0" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorMvc.Models.UserRepository">
+      <Item value="GetUsers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+      <Item value="IsNullOrEmpty" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageCodecInfo">
+      <Item value="GetImageEncoders" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Imaging.ImageCodecInfo">
+      <Item value="FormatID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="2" />
+      <Item value="Png" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Imaging.ImageFormat">
+      <Item value="Guid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.Encoder">
+      <Item value="Quality" priority="1" />
+      <Item value="Compression" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Imaging.EncoderParameters">
+      <Item value="Param" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Save" priority="4" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="GetPixel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine" priority="2" />
+      <Item value="GetFileName" priority="3" />
+      <Item value="GetDirectoryName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Close" priority="1" />
+      <Item value="GetBuffer" priority="0" />
+      <Item value="ToArray" priority="0" />
+      <Item value="Seek" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Monitor.Messages.PollModeMessage">
+      <Item value="PollModeOptions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Monitor.Messages.PollModeMessage+PollModeOptions">
+      <Item value="PollForCommands" priority="0" />
+      <Item value="PostThumbnail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.AgentData">
+      <Item value="MessagesToDeliver" priority="1" />
+      <Item value="CurrentDirectory" priority="2" />
+      <Item value="AgentId" priority="5" />
+      <Item value="Folders" priority="0" />
+      <Item value="Files" priority="0" />
+      <Item value="FileDataMessage" priority="4" />
+      <Item value="PackagesToDeliver" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="4" />
+      <Item value="AddRange" priority="3" />
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="IsAjaxRequest" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="Encode" priority="8" />
+      <Item value="ActionLink" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split" priority="1" />
+      <Item value="Replace" priority="0" />
+      <Item value="EndsWith" priority="1" />
+      <Item value="ReverseTheString" priority="1" />
+      <Item value="IsNotNullOrEmpty" priority="0" />
+      <Item value="FileExists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
+      <Item value="Action" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Monitor.Messages.DirectoryCommandMessage+Action">
+      <Item value="ChangeDirectory" priority="0" />
+      <Item value="FetchContent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorAgent.Agent">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MonitorAgent.WebService.Action">
+      <Item value="FetchCurrentData" priority="0" />
+      <Item value="FetchContent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Ionic.Zip.ZipFile">
+      <Item value="AddEntry" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists" priority="2" />
+      <Item value="WriteAllBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Utilities.ZipHelper">
+      <Item value="AddFile" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="AddFolder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="4" />
+      <Item value="MinValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Messages.FileDataMessage">
+      <Item value="FileData" priority="1" />
+      <Item value="FileName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.FileStreamResult">
+      <Item value="FileDownloadName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorMvc.Models.HomeViewModel">
+      <Item value="Agents" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Monitor.Messages.PollIntervalMessage">
+      <Item value="DefaultIntervalInMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Post" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="Encode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MonitorMvc.Controllers.ContactInfo">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="Age" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.DataBundle">
+      <Item value="Packages" priority="4" />
+      <Item value="AgentId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.IPackageHandler">
+      <Item value="Process" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Utilities.Plugin.PluginFinder`1">
+      <Item value="FindPlugins" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.AgentData">
+      <Item value="AgentId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Utilities.Log.ILogger">
+      <Item value="Equals" priority="0" />
+      <Item value="Error" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.DataPackage">
+      <Item value="PluginId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.AgentInfo">
+      <Item value="AgentId" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.AgentService">
+      <Item value="AgentInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CuttingEdge.Conditions.Condition">
+      <Item value="Requires" priority="13" />
+      <Item value="Ensures" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CuttingEdge.Conditions.ConditionValidator`1">
+      <Item value="IsNotNull" priority="10" />
+      <Item value="IsNotNullOrEmpty" priority="2" />
+      <Item value="DirectoryExists" priority="2" />
+      <Item value="HasLength" priority="0" />
+      <Item value="Contains" priority="0" />
+      <Item value="IsLongerThan" priority="0" />
+      <Item value="IsNotEmpty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter">
+      <Item value="Serialize" priority="0" />
+      <Item value="Deserialize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.SeekOrigin">
+      <Item value="Begin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Monitor.Packages.Serializer">
+      <Item value="ConvertToByteArray" priority="0" />
+      <Item value="ConvertToObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:UtilitiesTests.SerializerTests+Person">
+      <Item value="FirstName" priority="1" />
+      <Item value="LastName" priority="1" />
+      <Item value="Birthdate" priority="1" />
+      <Item value="Bounds" priority="2" />
+      <Item value="PositionX" priority="0" />
+      <Item value="Position2" priority="2" />
+      <Item value="Image" priority="6" />
+      <Item value="Position1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rlc.Utilities.Serializer">
+      <Item value="ConvertToByteArray" priority="1" />
+      <Item value="ConvertToObject" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Graphics">
+      <Item value="FromImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="CopyFromScreen" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ConvertMonthToSeason" priority="1" />
+      <Item value="IsNotLessThan" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ConsoleApplication1.StringExtensions">
+      <Item value="ConvertMonthToSeason" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WrapperType`1">
+      <Item value="Value" priority="3" />
+      <Item value="ParameterName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Validate">
+      <Item value="Parameter" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Validate+WrapperType`1">
+      <Item value="IsNotNullOrEmpty" priority="0" />
+      <Item value="FileExists" priority="0" />
+      <Item value="IsNotLessThan" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.MessageBundle">
+      <Item value="Messages" priority="4" />
+      <Item value="AgentId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.Server.IServerMessageProcessor">
+      <Item value="Id" priority="0" />
+      <Item value="Process" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.Server.ServerMessageProcessorFactory">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.Message">
+      <Item value="PluginId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Response" priority="0" />
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.Server.MessageBundleProcessor">
+      <Item value="ProcessDataBundle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rlc.Monitor.Packages.Client.IClientMessageProcessor">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Messages/f:ImageDataMessage.cs" caret="50" fromTop="3" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:Serializer.cs" caret="886" fromTop="36" />
+      <File id="319CE392-7271-4471-8A20-EA02DB748E05/d:ScreenCapture/f:ScreenCapture.cs" caret="0" fromTop="0" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/f:AgentInfo.cs" caret="0" fromTop="0" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:MessageBundleProcessor.cs" caret="758" fromTop="9" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:IClientPackageHandler.cs" caret="68" fromTop="1" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:ClientMessageProcessorFactory.cs" caret="1810" fromTop="40" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:IServerMessageProcessor.cs" caret="162" fromTop="4" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:MessageBundleProcessor.cs" caret="269" fromTop="9" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:ServerMessageProcessorFactory.cs" caret="1212" fromTop="36" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/f:DataPackage.cs" caret="99" fromTop="4" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/f:DataBundle.cs" caret="131" fromTop="5" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Models/f:ModelHelpers.cs" caret="1784" fromTop="35" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/f:AgentData.cs" caret="838" fromTop="29" />
+      <File id="319CE392-7271-4471-8A20-EA02DB748E05/f:app.config" caret="1331" fromTop="19" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:Images.cs" caret="569" fromTop="20" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="1030" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Email/f:Email.cs" caret="314" fromTop="16" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Email/f:IEmail.cs" caret="0" fromTop="0" />
+      <File id="319CE392-7271-4471-8A20-EA02DB748E05/f:Agent.cs" caret="3905" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Logging/f:NLogLogger.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Logging/f:EventLogLogger.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Logging/f:DebugLogger.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Logging/f:ILogger.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Plugin/f:PluginManager.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Plugin/f:PluginFinder.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Plugin/f:PluginClassFactory.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Plugin/f:MonitoredAsyncPluginBase.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/d:Plugin/f:IPlugin.cs" caret="0" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:ImagePacker.cs" caret="1256" fromTop="31" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="772" fromTop="18" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="1197" fromTop="15" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:ServerMessageProcessorFactory.cs" caret="865" fromTop="18" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:MessageBundleProcessor.cs" caret="266" fromTop="10" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:MessageBundleProcessor.cs" caret="115" fromTop="2" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:MessageBundleProcessor.cs" caret="502" fromTop="17" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:ClientMessageProcessorFactory.cs" caret="417" fromTop="10" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:ClientMessageProcessorFactory.cs" caret="148" fromTop="3" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:ClientMessageProcessorFactory.cs" caret="1216" fromTop="10" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:IClientPackageHandler.cs" caret="68" fromTop="1" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Client/f:ClientMessageProcessorFactory.cs" caret="1810" fromTop="40" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:IServerMessageProcessor.cs" caret="68" fromTop="1" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:MessageBundleProcessor.cs" caret="84" fromTop="2" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:ServerMessageProcessorFactory.cs" caret="417" fromTop="10" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:ServerMessageProcessorFactory.cs" caret="148" fromTop="3" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/d:Server/f:ServerMessageProcessorFactory.cs" caret="1217" fromTop="10" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/f:DataPackage.cs" caret="850" fromTop="35" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/d:Packages/f:DataPackage.cs" caret="41" fromTop="1" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="349" fromTop="12" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Models/f:ModelHelpers.cs" caret="177" fromTop="5" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Models/f:ModelHelpers.cs" caret="1784" fromTop="9" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/f:AgentData.cs" caret="131" fromTop="3" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/f:AgentData.cs" caret="423" fromTop="15" />
+      <File id="1975DB81-F78C-4AF0-9123-E6D7BCE0BC19/f:AgentData.cs" caret="838" fromTop="29" />
+      <File id="319CE392-7271-4471-8A20-EA02DB748E05/f:app.config" caret="1383" fromTop="20" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="213" fromTop="7" />
+      <File id="8597702E-075F-496C-801A-B0B967DB89A6/d:Services/f:CommandHandler.asmx.cs" caret="1030" fromTop="0" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:ImagePacker.cs" caret="1416" fromTop="26" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:ImagePacker.cs" caret="74" fromTop="4" />
+      <File id="976B4F06-F294-4E0D-B03E-6E59A83E81C4/f:ImagePacker.cs" caret="1413" fromTop="38" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,29 @@
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\bin\Debug\RLC.Utilities.dll
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\bin\Debug\RLC.Utilities.pdb
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\obj\Debug\RLC.Utilities.dll
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\obj\Debug\RLC.Utilities.pdb
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\bin\Debug\BitFactoryLogger.dll
+C:\Users\Bob Cravens\Desktop\PhotoGallery\Utilities\bin\Debug\BitFactoryLogger.pdb
+C:\Code\DOTNET\PhotoGallery\Utilities\bin\Debug\RLC.Utilities.dll
+C:\Code\DOTNET\PhotoGallery\Utilities\bin\Debug\RLC.Utilities.pdb
+C:\Code\DOTNET\PhotoGallery\Utilities\bin\Debug\BitFactoryLogger.dll
+C:\Code\DOTNET\PhotoGallery\Utilities\bin\Debug\BitFactoryLogger.pdb
+C:\Code\DOTNET\PhotoGallery\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\DOTNET\PhotoGallery\Utilities\obj\Debug\RLC.Utilities.dll
+C:\Code\DOTNET\PhotoGallery\Utilities\obj\Debug\RLC.Utilities.pdb
+C:\Code\DOTNET\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\DOTNET\Utilities\bin\Debug\Cravens.Utilities.dll
+C:\Code\DOTNET\Utilities\bin\Debug\Cravens.Utilities.pdb
+C:\Code\DOTNET\Utilities\obj\Debug\Cravens.Utilities.dll
+C:\Code\DOTNET\Utilities\obj\Debug\Cravens.Utilities.pdb
+C:\Code\DOTNET\Utilities\bin\Debug\NLog.dll
+\\Mac\Home\Downloads\MonitoringStation\Utilities\bin\Debug\Cravens.Utilities.dll
+\\Mac\Home\Downloads\MonitoringStation\Utilities\bin\Debug\Cravens.Utilities.pdb
+\\Mac\Home\Downloads\MonitoringStation\Utilities\obj\Debug\Cravens.Utilities.dll
+\\Mac\Home\Downloads\MonitoringStation\Utilities\obj\Debug\Cravens.Utilities.pdb
+\\Mac\Home\Downloads\MonitoringStation\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\MonitoringStation\Utilities\bin\Debug\Cravens.Utilities.dll
+C:\MonitoringStation\Utilities\bin\Debug\Cravens.Utilities.pdb
+C:\MonitoringStation\Utilities\obj\Debug\Cravens.Utilities.dll
+C:\MonitoringStation\Utilities\obj\Debug\Cravens.Utilities.pdb

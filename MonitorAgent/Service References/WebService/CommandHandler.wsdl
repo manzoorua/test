@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="Poll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="tns:BaseMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BaseMessage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AgentId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeStamp" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChatMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ThumbsizeMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Width" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Height" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PollIntervalMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="IntervalInMilliseconds" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PollModeMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="PollMode" type="tns:PollModeOptions" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="PollModeOptions">
+        <s:restriction base="s:string">
+          <s:enumeration value="Register" />
+          <s:enumeration value="PollForCommands" />
+          <s:enumeration value="PostThumbnail" />
+          <s:enumeration value="PostFullsize" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ImageDataMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ImageData" type="s:base64Binary" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsThumbnail" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsPartial" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="X" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Y" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FullWidth" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FullHeight" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="RegisterMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ComputerName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="UserInfo" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EmptyMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DirectoryCommandMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Command" type="tns:Action" />
+              <s:element minOccurs="0" maxOccurs="1" name="CurrentDirectory" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ContentToFetch" type="tns:ArrayOfString" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="Action">
+        <s:restriction base="s:string">
+          <s:enumeration value="FetchCurrentData" />
+          <s:enumeration value="ChangeDirectory" />
+          <s:enumeration value="FetchContent" />
+          <s:enumeration value="CopyContent" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FileDataMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FileData" type="s:base64Binary" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DirectoryDataMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="CurrentFolder" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Folders" type="tns:ArrayOfString" />
+              <s:element minOccurs="0" maxOccurs="1" name="Files" type="tns:ArrayOfString" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ImageNoChangeMessage">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:BaseMessage" />
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="PollResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PollResult" type="tns:ArrayOfBaseMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfBaseMessage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BaseMessage" nillable="true" type="tns:BaseMessage" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PollSoapIn">
+    <wsdl:part name="parameters" element="tns:Poll" />
+  </wsdl:message>
+  <wsdl:message name="PollSoapOut">
+    <wsdl:part name="parameters" element="tns:PollResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CommandHandlerSoap">
+    <wsdl:operation name="Poll">
+      <wsdl:input message="tns:PollSoapIn" />
+      <wsdl:output message="tns:PollSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CommandHandlerSoap" type="tns:CommandHandlerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Poll">
+      <soap:operation soapAction="http://tempuri.org/Poll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CommandHandlerSoap12" type="tns:CommandHandlerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Poll">
+      <soap12:operation soapAction="http://tempuri.org/Poll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommandHandler">
+    <wsdl:port name="CommandHandlerSoap" binding="tns:CommandHandlerSoap">
+      <soap:address location="http://localhost/Monitor/Services/CommandHandler.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CommandHandlerSoap12" binding="tns:CommandHandlerSoap12">
+      <soap12:address location="http://localhost/Monitor/Services/CommandHandler.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

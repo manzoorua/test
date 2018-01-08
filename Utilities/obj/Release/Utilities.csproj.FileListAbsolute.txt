@@ -1,0 +1,7 @@
+C:\Code\DOTNET\Utilities\obj\Release\ResolveAssemblyReference.cache
+C:\Code\DOTNET\Utilities\bin\Release\Rlc.Utilities.dll
+C:\Code\DOTNET\Utilities\bin\Release\Rlc.Utilities.pdb
+C:\Code\DOTNET\Utilities\obj\Release\Rlc.Utilities.dll
+C:\Code\DOTNET\Utilities\obj\Release\Rlc.Utilities.pdb
+C:\Code\DOTNET\Utilities\bin\Release\BitFactory.Logging.dll
+C:\Code\DOTNET\Utilities\bin\Release\BitFactory.Logging.xml

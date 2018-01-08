@@ -1,0 +1,15 @@
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\MonitorMvc.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\MonitorMvc.pdb
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\Rlc.Monitor.MonitorCommon.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\System.Web.Mvc.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\Rlc.Monitor.MonitorCommon.pdb
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\System.Web.Mvc.xml
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\obj\Debug\MonitorMvc.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\obj\Debug\MonitorMvc.pdb
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\Ionic.Zip.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\CuttingEdge.Conditions.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\CuttingEdge.Conditions.xml
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\Cravens.Utilities.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\NLog.dll
+C:\Code\DOTNET\MonitoringStation\MonitorMvc\MonitorMvc\bin\Cravens.Utilities.pdb

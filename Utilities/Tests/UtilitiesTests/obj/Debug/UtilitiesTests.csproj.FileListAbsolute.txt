@@ -1,0 +1,9 @@
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\UtilitiesTests.dll
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\UtilitiesTests.pdb
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\Ionic.Zip.dll
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\obj\Debug\UtilitiesTests.dll
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\obj\Debug\UtilitiesTests.pdb
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\Cravens.Utilities.dll
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\NLog.dll
+C:\Code\DOTNET\Utilities\Tests\UtilitiesTests\bin\Debug\Cravens.Utilities.pdb
